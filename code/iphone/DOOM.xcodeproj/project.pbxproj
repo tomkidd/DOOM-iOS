@@ -14,6 +14,10 @@
 		43CF030A0F56D5C200E4A23D /* iphone_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CF03090F56D5C200E4A23D /* iphone_loop.c */; };
 		43E8D2E10F4FC61E003F09B2 /* iphone_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E8D2DF0F4FC61E003F09B2 /* iphone_main.c */; };
 		43E8D4E00F51B48B003F09B2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E8D4DF0F51B48B003F09B2 /* OpenAL.framework */; };
+		55B06E362531F23200F82EF5 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
+		55D250DC2521286A0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
+		55D250DD2521286A0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
+		55D250E6252129FF0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
 		720EBBAE0F82E0BB003F989A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720EBBAD0F82E0BB003F989A /* QuartzCore.framework */; };
 		7229CE4A0F6C89F8004123C5 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7229CE460F6C89F8004123C5 /* EAGLView.m */; };
 		7229CE550F6C8CDE004123C5 /* gles_glue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7229CE540F6C8CDE004123C5 /* gles_glue.c */; };
@@ -2126,6 +2130,7 @@
 		43CF03090F56D5C200E4A23D /* iphone_loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iphone_loop.c; sourceTree = "<group>"; };
 		43E8D2DF0F4FC61E003F09B2 /* iphone_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iphone_main.c; sourceTree = "<group>"; };
 		43E8D4DF0F51B48B003F09B2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+		55D250DB2521286A0066E854 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = music; path = ../../base/music; sourceTree = "<group>"; };
 		720EBBAD0F82E0BB003F989A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		7229CC8E0F6B3363004123C5 /* doomiphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = doomiphone.h; path = ../doomiphone.h; sourceTree = SOURCE_ROOT; };
 		7229CE450F6C89F8004123C5 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
@@ -2846,6 +2851,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55D250DB2521286A0066E854 /* music */,
 				A12302FA205783E70075CBAD /* base.iPack */,
 				C8D1CFA913E1CDC600F0EAC6 /* Default-Landscape~ipad.png */,
 				C8D1CFA713E1CDBD00F0EAC6 /* Default-Portrait~ipad.png */,
@@ -3649,6 +3655,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B06E362531F23200F82EF5 /* music in Resources */,
 				43CF02FF0F56974E00E4A23D /* Default.png in Resources */,
 				4364BF3F0F5CB25900F29317 /* dist.plist in Resources */,
 				A1B9E45D21700601003E9731 /* DOOM-iOS.xcassets in Resources */,
@@ -3930,6 +3937,7 @@
 				A1063A2C216EFCEE00BDE196 /* base.iPack in Resources */,
 				A1063A2D216EFCEE00BDE196 /* OpenGLView.xib in Resources */,
 				A1063A2E216EFCEE00BDE196 /* r_drawcolumn.inl in Resources */,
+				55D250DC2521286A0066E854 /* music in Resources */,
 				A1063A2F216EFCEE00BDE196 /* SliderSkull.png in Resources */,
 				A1063A30216EFCEE00BDE196 /* MissionMenuView.xib in Resources */,
 				A1063A31216EFCEE00BDE196 /* SliderSkull@2x.png in Resources */,
@@ -3996,6 +4004,7 @@
 				A1063B29216F012000BDE196 /* MenuBackground.png in Resources */,
 				A1063B2A216F012000BDE196 /* Nightmare.png in Resources */,
 				A1063B2B216F012000BDE196 /* ResumeButton.png in Resources */,
+				55D250DD2521286A0066E854 /* music in Resources */,
 				A1063C0B216F0B1D00BDE196 /* plutonia.wad in Resources */,
 				A1063B2C216F012000BDE196 /* SelectedBracket.png in Resources */,
 				A1063B2D216F012000BDE196 /* idGinzaNar-Md2.otf in Resources */,
@@ -4134,6 +4143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D250E6252129FF0066E854 /* music in Resources */,
 				A1B98E65207F026900827A46 /* Default.png in Resources */,
 				A1B98F90207F07E300827A46 /* r_drawflush.inl in Resources */,
 				A1B98E33207F025600827A46 /* SliderSkull~ipad.png in Resources */,
