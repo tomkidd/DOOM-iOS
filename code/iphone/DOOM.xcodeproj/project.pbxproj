@@ -2538,13 +2538,13 @@
 		A1D399392171A0A800FD11C3 /* DOOM2-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "DOOM2-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1D3993C2171A0FD00FD11C3 /* FinalDOOM-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "FinalDOOM-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1DE85B8229F60BE0041E450 /* SIGIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIGIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DE85B9229F60BE0041E450 /* SIGIL-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SIGIL-iOS-Info.plist"; path = "/Users/tomkidd/Documents/GitHub/DOOM-iOS/code/iphone/SIGIL-iOS-Info.plist"; sourceTree = "<absolute>"; };
+		A1DE85B9229F60BE0041E450 /* SIGIL-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIGIL-iOS-Info.plist"; sourceTree = "<group>"; };
 		A1DE85BA229F610B0041E450 /* SIGIL_SHREDS.wad */ = {isa = PBXFileReference; lastKnownFileType = file; name = SIGIL_SHREDS.wad; path = ../../base/SIGIL_SHREDS.wad; sourceTree = "<group>"; };
 		A1DE85BB229F610B0041E450 /* SIGIL.wad */ = {isa = PBXFileReference; lastKnownFileType = file; name = SIGIL.wad; path = ../../base/SIGIL.wad; sourceTree = "<group>"; };
 		A1DE85C2229F73950041E450 /* SIGIL-iOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "SIGIL-iOS.xcassets"; sourceTree = "<group>"; };
 		A1DE85C6229F874F0041E450 /* SIGILLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SIGILLaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1DE86D4229F88D20041E450 /* SIGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DE86D5229F88D20041E450 /* SIGIL-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SIGIL-tvOS-Info.plist"; path = "/Users/tomkidd/Documents/GitHub/DOOM-iOS/code/iphone/SIGIL-tvOS-Info.plist"; sourceTree = "<absolute>"; };
+		A1DE86D5229F88D20041E450 /* SIGIL-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIGIL-tvOS-Info.plist"; sourceTree = "<group>"; };
 		A1DE86D8229F8B090041E450 /* SIGIL-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "SIGIL-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1E89C8B2067469D00760204 /* CreditsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsMenuViewController.h; sourceTree = "<group>"; };
 		A1E89C8C2067469D00760204 /* CreditsMenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CreditsMenuViewController.mm; sourceTree = "<group>"; };
