@@ -515,7 +515,7 @@ void iphoneStartMusic() {
 		return;
 	}
 	char	fullName[1024];
-	sprintf( fullName, "%s/base/music/d_%s.mp3", SysIphoneGetAppDir(), currentMusicName );
+	sprintf( fullName, "%s/music/d_%s.mp3", SysIphoneGetAppDir(), currentMusicName );
 	
 	printf( "Starting music '%s'\n", fullName );
 
