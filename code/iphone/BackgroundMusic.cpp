@@ -269,6 +269,7 @@ void BackgroundTrackMgr2::QueueCallback( void * inUserData, AudioQueueRef inAQ, 
 	OSStatus result = noErr;
 	BackgroundTrackMgr2 *THIS = (BackgroundTrackMgr2*)inUserData;
 	UInt32 nPackets = 0;
+    UInt32 ioNumBytes;
 	// loop the current buffer if the following:
 	// 1. file was loaded into the buffer previously
 	// 2. only one file in the queue
@@ -276,15 +277,15 @@ void BackgroundTrackMgr2::QueueCallback( void * inUserData, AudioQueueRef inAQ, 
 	if ((CurFileInfo->mFileDataInQueue) && (!THIS->mStopAtEnd)) {
 		nPackets = THIS->mNumPacketsToRead;
 	} else {
-		UInt32 numBytes;
 		while (nPackets == 0) {
 			// if loadAtOnce, get all packets in the file, otherwise ~.5 seconds of data
-			nPackets = THIS->mNumPacketsToRead;					
-			result = AudioFileReadPacketData(CurFileInfo->mAFID, false, &numBytes, THIS->mPacketDescs, THIS->mCurrentPacket, &nPackets, inCompleteAQBuffer->mAudioData);
+			nPackets = THIS->mNumPacketsToRead;
+            ioNumBytes = kAudioFilePropertyMaximumPacketSize * nPackets;
+
+			result = AudioFileReadPacketData(CurFileInfo->mAFID, false, &ioNumBytes, THIS->mPacketDescs, THIS->mCurrentPacket, &nPackets, inCompleteAQBuffer->mAudioData);
 			AssertNoError("Error reading file data", end);
 			
-			inCompleteAQBuffer->mAudioDataByteSize = numBytes;	
-			
+			inCompleteAQBuffer->mAudioDataByteSize = ioNumBytes;	
 			if (nPackets == 0) { // no packets were read, this file has ended.
 				if (CurFileInfo->mLoadAtOnce) {
 					CurFileInfo->mFileDataInQueue = true;
