@@ -100,7 +100,7 @@ void I_FindFile(const char* wfname, const char* ext, char * returnFileName )
         return;
     }
 
-    sprintf( returnFileName, "%s/music/d_%s", SysIphoneGetAppDir(), wfname );
+    sprintf( returnFileName, "%s/music/%s", SysIphoneGetAppDir(), wfname );
     if (!access(returnFileName,F_OK)) {
         lprintf(LO_INFO, " found %s\n", returnFileName);
 
