@@ -18,6 +18,7 @@
 		55D250DC2521286A0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
 		55D250DD2521286A0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
 		55D250E6252129FF0066E854 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
+		55D9F1D125433A57002A145C /* music in Resources */ = {isa = PBXBuildFile; fileRef = 55D250DB2521286A0066E854 /* music */; };
 		720EBBAE0F82E0BB003F989A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720EBBAD0F82E0BB003F989A /* QuartzCore.framework */; };
 		7229CE4A0F6C89F8004123C5 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7229CE460F6C89F8004123C5 /* EAGLView.m */; };
 		7229CE550F6C8CDE004123C5 /* gles_glue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7229CE540F6C8CDE004123C5 /* gles_glue.c */; };
@@ -3757,6 +3758,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D9F1D125433A57002A145C /* music in Resources */,
 				A10638C8216EF7C700BDE196 /* Default.png in Resources */,
 				A10638C9216EF7C700BDE196 /* r_drawflush.inl in Resources */,
 				A10638CA216EF7C700BDE196 /* SliderSkull~ipad.png in Resources */,
