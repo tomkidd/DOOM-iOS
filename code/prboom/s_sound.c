@@ -580,7 +580,13 @@ void S_ChangeMusic(int musicnum, int looping)
     I_FindFile(S_music_files[musicnum], "", music_filename);
       if ( music_filename[0] != '\0' )
         {
-          music_file_failed = I_RegisterMusic(music_filename, music);
+          #ifdef IPHONE
+            extern void iphonePlayMusic( const char *name );
+            iphonePlayMusic( music->name );
+            music_file_failed = 0;
+          #else
+            music_file_failed = I_RegisterMusic(music_filename, music);
+          #endif
           //free(music_filename);
         }
 
