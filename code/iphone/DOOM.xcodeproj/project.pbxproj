@@ -2538,13 +2538,13 @@
 		A1D399392171A0A800FD11C3 /* DOOM2-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "DOOM2-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1D3993C2171A0FD00FD11C3 /* FinalDOOM-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "FinalDOOM-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1DE85B8229F60BE0041E450 /* SIGIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIGIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DE85B9229F60BE0041E450 /* SIGIL-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SIGIL-iOS-Info.plist"; path = "/Users/tomkidd/Documents/GitHub/DOOM-iOS/code/iphone/SIGIL-iOS-Info.plist"; sourceTree = "<absolute>"; };
+		A1DE85B9229F60BE0041E450 /* SIGIL-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIGIL-iOS-Info.plist"; sourceTree = "<group>"; };
 		A1DE85BA229F610B0041E450 /* SIGIL_SHREDS.wad */ = {isa = PBXFileReference; lastKnownFileType = file; name = SIGIL_SHREDS.wad; path = ../../base/SIGIL_SHREDS.wad; sourceTree = "<group>"; };
 		A1DE85BB229F610B0041E450 /* SIGIL.wad */ = {isa = PBXFileReference; lastKnownFileType = file; name = SIGIL.wad; path = ../../base/SIGIL.wad; sourceTree = "<group>"; };
 		A1DE85C2229F73950041E450 /* SIGIL-iOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "SIGIL-iOS.xcassets"; sourceTree = "<group>"; };
 		A1DE85C6229F874F0041E450 /* SIGILLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SIGILLaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1DE86D4229F88D20041E450 /* SIGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DE86D5229F88D20041E450 /* SIGIL-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SIGIL-tvOS-Info.plist"; path = "/Users/tomkidd/Documents/GitHub/DOOM-iOS/code/iphone/SIGIL-tvOS-Info.plist"; sourceTree = "<absolute>"; };
+		A1DE86D5229F88D20041E450 /* SIGIL-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIGIL-tvOS-Info.plist"; sourceTree = "<group>"; };
 		A1DE86D8229F8B090041E450 /* SIGIL-tvOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "SIGIL-tvOS.xcassets"; sourceTree = "<group>"; };
 		A1E89C8B2067469D00760204 /* CreditsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsMenuViewController.h; sourceTree = "<group>"; };
 		A1E89C8C2067469D00760204 /* CreditsMenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CreditsMenuViewController.mm; sourceTree = "<group>"; };
@@ -5916,7 +5916,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -5988,7 +5988,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				SDKROOT = iphoneos;
 			};
 			name = ReleaseLite;
@@ -6061,7 +6061,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				SDKROOT = iphoneos;
 			};
 			name = DebugLite;
@@ -6439,7 +6439,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6474,7 +6474,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -6512,7 +6512,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6544,7 +6544,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -6576,7 +6576,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6610,7 +6610,7 @@
 				INFOPLIST_FILE = "FinalDOOM-iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idsoftware.FInalDOOM;
-				PRODUCT_NAME = "FInal DOOM";
+				PRODUCT_NAME = "Final DOOM";
 				PROFILE_PREFIX = com.idsoftware;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18BCE49D-8823-4A0C-B597-CFE83C7820BE";
@@ -7443,7 +7443,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -7490,7 +7490,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7527,7 +7527,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -7565,7 +7565,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7599,7 +7599,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -7631,7 +7631,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: id Software";
@@ -7714,7 +7714,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -7762,7 +7762,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -7814,7 +7814,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -7860,7 +7860,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -7906,7 +7906,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -7954,7 +7954,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomkiddconsulting.SIGILTV;
-				PRODUCT_NAME = SIGL;
+				PRODUCT_NAME = SIGIL;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
@@ -8002,7 +8002,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -8048,7 +8048,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -8094,7 +8094,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = Doom;
+				PRODUCT_NAME = DOOM;
 				PROVISIONING_PROFILE = "31C73095-0DD9-4ABA-BB25-8D23F661F10F";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "31C73095-0DD9-4ABA-BB25-8D23F661F10F";
 				SDKROOT = iphoneos;
